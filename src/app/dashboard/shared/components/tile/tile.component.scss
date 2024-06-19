@@ -1,0 +1,38 @@
+  .splitter {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  .rounded-border {
+    border: 2px solid green;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .left, .right {
+    padding: 10px;
+  }
+  
+  .left {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right {
+    flex: 3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .text-container {
+    color: #F0F9F6;
+    font-size: 1.3rem;
+  }
+
+  .value-container {
+    color: #ffff;
+    font-size: 2.5rem;
+  }

@@ -1,0 +1,13 @@
+<div class="splitter rounded-border" [style.border-color]="color">
+  <div class="left">
+    <ng-content select="[card-icon]"></ng-content>
+  </div>
+  <div class="right d-flex flex-column" [style.background-color]="color">
+    <div class="text-container pt-3 pb-0">
+      <ng-content select="[card-text]"></ng-content>
+    </div>
+    <div class="value-container pt-0 pb-0">
+      <ng-content select="[card-value]"></ng-content>
+    </div>
+  </div>
+</div>
